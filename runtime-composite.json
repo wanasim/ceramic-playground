@@ -1,0 +1,26 @@
+{
+  "models": {
+    "SimpleProfile": {
+      "interface": false,
+      "implements": [],
+      "id": "kjzl6hvfrbw6c5i55ks5m4hhyuh0jylw4g7x0asndu97i7luts4dfzvm35oev65",
+      "accountRelation": { "type": "single" }
+    }
+  },
+  "objects": {
+    "SimpleProfile": {
+      "displayName": {
+        "type": "string",
+        "required": true,
+        "immutable": false
+      }
+    }
+  },
+  "enums": {},
+  "accountData": {
+    "simpleProfile": {
+      "type": "node",
+      "name": "SimpleProfile"
+    }
+  }
+}
